@@ -42,7 +42,9 @@
 	  
     </nav>
   
-	
+	<?php
+	echo("Test me twice");
+	?>
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->

@@ -14,15 +14,15 @@ gulp.task('sass', function() {
 
 gulp.task('browserSync', function() {
   browserSync.init({
-    server: {
-      baseDir: 'app'
-    },
+ 	proxy: "localhost/films_plein_air/app/",
+	port: 80
   })
 })
 
 gulp.task('watch', ['browserSync', 'sass'], function(){
   gulp.watch('app/scss/**/*.scss', ['sass']);
   gulp.watch('app/*.html', browserSync.reload);
+  gulp.watch('app/*.php', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
   // Other watchers
 })
