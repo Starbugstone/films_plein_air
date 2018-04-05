@@ -1,5 +1,5 @@
 new Vue({
-  el: '#example',
+  el: '#films',
   data: {
     slides: 7
   },

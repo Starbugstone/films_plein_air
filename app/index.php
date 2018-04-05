@@ -13,41 +13,85 @@
     <title>Les films de plein air</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-
-      <a class="navbar-brand" href="#">Expand at md</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="mainDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="mainDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
+    <header>
+      <div class="headerTitle navbar navbar-dark bg-dark">
+        <h1><a class="navbar-brand" href="#">Les films de plein air</a></h1>
       </div>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-    </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-	<?php
-	echo("Test me twice");
-	?>
-    <h1>Hello, world!</h1>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="mainDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="mainDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+
+          <div id="films">
+            <carousel-3d>
+              <slide v-for="(slide, i) in slides" :index="i">
+                <img src="https://placehold.it/360x270">
+              </slide>
+            </carousel-3d>
+          </div><!-- End Carousel -->
+
+          <div class="row justify-content-around blogRow">
+            <?php
+            for ($i=0; $i < 3; $i++) {
+              ?>
+              <section class="col-md-4">
+                  <div class="card">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </section><!-- end blog section -->
+              <?php
+            }
+             ?>
+          </div><!-- end blog row -->
+
+        </div><!-- end main section -->
+        <aside class="col-md-4">
+
+        </aside>
+      </div>
+    </main>
+    <footer>
+
+
+    </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
