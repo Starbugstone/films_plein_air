@@ -50,7 +50,8 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-8">
+
           <div id="films" >
             <carousel-3d :height="600" :autoplay="true" :display="7">
               <slide v-for="(slide, i) in slides" :index="i">
@@ -73,16 +74,10 @@
               </slide>
             </carousel-3d>
           </div><!-- End Carousel -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8">
-
-
 
           <div class="row justify-content-around blogRow">
             <?php
-            for ($i=0; $i < 6; $i++) {
+            for ($i=0; $i < 3; $i++) {
               ?>
               <section class="col-md-4">
                 <div class="card">
