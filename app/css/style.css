@@ -3,7 +3,11 @@
 *==============================================*/
 @font-face {
   font-family: "Forte";
-  src: url(fonts/FORTE.TTF) format("truetype"); }
+  src: url(../fonts/FORTE.TTF) format("truetype"); }
+
+.card > .card-header {
+  background-color: #320066;
+  color: white; }
 
 /*============================================*
 * NavBar
@@ -19,10 +23,10 @@
 /*============================================*
 * The carousel-3d
 *==============================================*/
-.filmImageCard {
+#films .filmImageCard {
   padding: 0; }
 
-.filmImage {
+#films .filmImage {
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;
@@ -30,12 +34,12 @@
   background-size: cover;
   overflow: hidden; }
 
-.filmImageText {
-  background-color: rgba(0, 0, 0, 0.7);
+#films .filmImageText {
+  background-color: rgba(90, 110, 180, 0.8);
   height: 100%;
   color: white;
   padding: 1.25rem;
   text-align: justify; }
 
-.carousel-3d-container, .carousel-3d-slider, .carousel-3d-slide {
+#films .carousel-3d-container, #films .carousel-3d-slider, #films .carousel-3d-slide {
   min-height: 602px !important; }

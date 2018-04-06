@@ -9,9 +9,13 @@ $darkererr: #0f001e;
 *==============================================*/
 @font-face {
     font-family: "Forte";
-    src: url(fonts/FORTE.TTF) format("truetype");
+    src: url(../fonts/FORTE.TTF) format("truetype");
 }
 
+.card>.card-header{
+  background-color: $base;
+  color: white;
+}
 
 /*============================================*
 * NavBar
@@ -29,27 +33,29 @@ $darkererr: #0f001e;
 /*============================================*
 * The carousel-3d
 *==============================================*/
-.filmImageCard{
-  padding: 0;
-}
+#films{
+  .filmImageCard{
+    padding: 0;
+  }
 
-.filmImage{
-  width: 100%;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-}
+  .filmImage{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
 
-.filmImageText{
-  background-color: rgba(0,0,0,0.7);
-  height: 100%;
-  color: white;
-  padding: 1.25rem;
-  text-align: justify;
-}
+  .filmImageText{
+    background-color: rgba(90,110,180,0.8);
+    height: 100%;
+    color: white;
+    padding: 1.25rem;
+    text-align: justify;
+  }
 
-.carousel-3d-container, .carousel-3d-slider, .carousel-3d-slide{
-  min-height: 602px !important; //Fix for mobile
+  .carousel-3d-container, .carousel-3d-slider, .carousel-3d-slide{
+    min-height: 602px !important; //Fix for mobile
+  }
 }
