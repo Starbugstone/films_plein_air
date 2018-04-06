@@ -65,7 +65,7 @@
             for ($i=0; $i < 3; $i++) {
               ?>
               <section class="col-md-4">
-                  <div class="card">
+                <div class="card">
                   <div class="card-header">
                     Featured
                   </div>
@@ -83,6 +83,32 @@
 
         </div><!-- end main section -->
         <aside class="col-md-4">
+
+          <div class="logo">
+            <img src="images/logo.png" />
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
 
         </aside>
       </div>
