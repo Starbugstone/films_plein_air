@@ -14,10 +14,10 @@
   </head>
   <body>
     <header>
-      <div class="headerTitle navbar navbar-dark bg-dark">
+      <div class="headerTitle navbar navbar-dark bg-darthV">
         <h1><a class="navbar-brand" href="#">Les films de plein air</a></h1>
       </div>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-darthV">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
         <div class="col-lg-8">
 
           <div id="films" >
-            <carousel-3d :height="600" :autoplay="true">
+            <carousel-3d :height="600" :autoplay="true" :display="7">
               <slide v-for="(slide, i) in slides" :index="i">
                 <div class="card">
                   <div class="card-header">
@@ -97,7 +97,7 @@
           </div><!-- end blog row -->
 
         </div><!-- end main section -->
-        <aside class="col-lg-4">
+        <aside class="col-lg-4 sidebar">
 
           <div class="logo">
             <img src="images/logo.png" class="img-fluid" />

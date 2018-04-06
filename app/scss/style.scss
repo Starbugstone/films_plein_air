@@ -2,11 +2,15 @@ $base: #320066;
 $brighter: #410083;
 $brighterr: #5100a3;
 $darker: #230047;
-$darkererr: #0f001e;
+$darkerr: #0f001e;
 
 /*============================================*
 * Global
 *==============================================*/
+body{
+  min-width: 360px;
+}
+
 @font-face {
     font-family: "Forte";
     src: url(../fonts/FORTE.TTF) format("truetype");
@@ -15,6 +19,10 @@ $darkererr: #0f001e;
 .card>.card-header{
   background-color: $base;
   color: white;
+}
+
+.bg-darthV{
+  background-color: $darkerr;
 }
 
 /*============================================*
@@ -29,6 +37,21 @@ $darkererr: #0f001e;
 .headerTitle h1 a{
   font-size: xx-large;
 }
+
+/*============================================*
+* The Sidebar
+*==============================================*/
+
+aside.sidebar{
+  margin-top: 15px;
+  padding-top: 15px;
+
+  div{
+    margin-bottom: 15px;
+  }
+}
+
+
 
 /*============================================*
 * The carousel-3d
