@@ -55,15 +55,22 @@
           <div id="films">
             <carousel-3d :height="600">
               <slide v-for="(slide, i) in slides" :index="i">
-                <div class="filmImage" style="background-image: url(http://c8.alamy.com/comp/F6MAFP/release-date-23-january-2009-title-slumdog-millionaire-studio-pathe-F6MAFP.jpg);">
-
-                  <div class="filmImageText" style="display: none;">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nisi ac luctus tristique. Nulla ornare lacus id felis laoreet, vitae congue odio faucibus. Duis gravida eros at facilisis interdum. Nam pellentesque vestibulum nisi. Nullam vel libero imperdiet, ultrices sapien ut, egestas magna. Aliquam arcu urna, malesuada eget suscipit vel, maximus vestibulum sem. Nulla consequat volutpat sem, quis bibendum tellus porttitor et. Maecenas luctus tortor felis, non elementum erat eleifend eu. Curabitur vestibulum, diam nec ultricies dapibus, lectus neque rhoncus lectus, eget interdum purus augue a augue. Pellentesque eu lacus sit amet purus bibendum tempus ac a leo.</p>
+                <div class="card">
+                  <div class="card-header">
+                    Slumdog Millionaire
+                  </div>
+                  <div class="card-body filmImageCard">
+                    <div class="filmImage" style="background-image: url(http://c8.alamy.com/comp/F6MAFP/release-date-23-january-2009-title-slumdog-millionaire-studio-pathe-F6MAFP.jpg);">
+                      <div class="filmImageText" style="display: none;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nisi ac luctus tristique. Nulla ornare lacus id felis laoreet, vitae congue odio faucibus. Duis gravida eros at facilisis interdum. Nam pellentesque vestibulum nisi. Nullam vel libero imperdiet, ultrices sapien ut, egestas magna. Aliquam arcu urna, malesuada eget suscipit vel, maximus vestibulum sem. Nulla consequat volutpat sem, quis bibendum tellus porttitor et. Maecenas luctus tortor felis, non elementum erat eleifend eu. Curabitur vestibulum, diam nec ultricies dapibus, lectus neque rhoncus lectus, eget interdum purus augue a augue. Pellentesque eu lacus sit amet purus bibendum tempus ac a leo.</p>
+                      </div>
+                    </div>
+                    <div class="filmTags">
+                      <p>date - hour - length - age</p>
+                    </div>
                   </div>
                 </div>
-                <div class="filmTags">
-                  <p>date - hour - length - age</p>
-                </div>
+
               </slide>
             </carousel-3d>
           </div><!-- End Carousel -->

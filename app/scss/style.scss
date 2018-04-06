@@ -8,6 +8,10 @@ $darkererr: #0f001e;
 /*============================================*
 * The carousel-3d
 *==============================================*/
+.filmImageCard{
+  padding: 0;
+}
+
 .filmImage{
   width: 100%;
   height: 500px;
@@ -18,7 +22,9 @@ $darkererr: #0f001e;
 }
 
 .filmImageText{
-  background-color: rgba(35,0,71,0.6);
+  background-color: rgba(0,0,0,0.7);
   height: 100%;
   color: white;
+  padding: 1.25rem;
+  text-align: justify;
 }
