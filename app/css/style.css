@@ -1,6 +1,9 @@
 /*============================================*
 * Global
 *==============================================*/
+body {
+  min-width: 360px; }
+
 @font-face {
   font-family: "Forte";
   src: url(../fonts/FORTE.TTF) format("truetype"); }
@@ -8,6 +11,9 @@
 .card > .card-header {
   background-color: #320066;
   color: white; }
+
+.bg-darthV {
+  background-color: #0f001e; }
 
 /*============================================*
 * NavBar
@@ -19,6 +25,15 @@
 
 .headerTitle h1 a {
   font-size: xx-large; }
+
+/*============================================*
+* The Sidebar
+*==============================================*/
+aside.sidebar {
+  margin-top: 15px;
+  padding-top: 15px; }
+  aside.sidebar div {
+    margin-bottom: 15px; }
 
 /*============================================*
 * The carousel-3d
