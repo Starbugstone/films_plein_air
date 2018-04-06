@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Les films de plein air</title>
   </head>
@@ -53,9 +53,17 @@
         <div class="col-md-8">
 
           <div id="films">
-            <carousel-3d>
+            <carousel-3d :height="600">
               <slide v-for="(slide, i) in slides" :index="i">
-                <img src="https://placehold.it/360x270">
+                <div class="filmImage" style="background-image: url(http://c8.alamy.com/comp/F6MAFP/release-date-23-january-2009-title-slumdog-millionaire-studio-pathe-F6MAFP.jpg);">
+
+                  <div class="filmImageText" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar nisi ac luctus tristique. Nulla ornare lacus id felis laoreet, vitae congue odio faucibus. Duis gravida eros at facilisis interdum. Nam pellentesque vestibulum nisi. Nullam vel libero imperdiet, ultrices sapien ut, egestas magna. Aliquam arcu urna, malesuada eget suscipit vel, maximus vestibulum sem. Nulla consequat volutpat sem, quis bibendum tellus porttitor et. Maecenas luctus tortor felis, non elementum erat eleifend eu. Curabitur vestibulum, diam nec ultricies dapibus, lectus neque rhoncus lectus, eget interdum purus augue a augue. Pellentesque eu lacus sit amet purus bibendum tempus ac a leo.</p>
+                  </div>
+                </div>
+                <div class="filmTags">
+                  <p>date - hour - length - age</p>
+                </div>
               </slide>
             </carousel-3d>
           </div><!-- End Carousel -->
@@ -85,7 +93,7 @@
         <aside class="col-md-4">
 
           <div class="logo">
-            <img src="images/logo.png" />
+            <img src="images/logo.png" class="img-fluid" />
           </div>
 
           <div class="card">
@@ -142,7 +150,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 

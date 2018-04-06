@@ -3,3 +3,22 @@ $brighter: #410083;
 $brighterr: #5100a3;
 $darker: #230047;
 $darkererr: #0f001e;
+
+
+/*============================================*
+* The carousel-3d
+*==============================================*/
+.filmImage{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.filmImageText{
+  background-color: rgba(35,0,71,0.6);
+  height: 100%;
+  color: white;
+}
