@@ -1,4 +1,22 @@
 /*============================================*
+* Global
+*==============================================*/
+@font-face {
+  font-family: "Forte";
+  src: url(fonts/FORTE.TTF) format("truetype"); }
+
+/*============================================*
+* NavBar
+*==============================================*/
+.headerTitle h1 {
+  font-family: Forte;
+  text-align: center;
+  width: 100%; }
+
+.headerTitle h1 a {
+  font-size: xx-large; }
+
+/*============================================*
 * The carousel-3d
 *==============================================*/
 .filmImageCard {
@@ -18,3 +36,6 @@
   color: white;
   padding: 1.25rem;
   text-align: justify; }
+
+.carousel-3d-container, .carousel-3d-slider, .carousel-3d-slide {
+  min-height: 602px !important; }

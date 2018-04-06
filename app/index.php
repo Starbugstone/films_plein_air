@@ -50,10 +50,10 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-lg-8">
 
-          <div id="films">
-            <carousel-3d :height="600">
+          <div id="films" >
+            <carousel-3d :height="600" :autoplay="true">
               <slide v-for="(slide, i) in slides" :index="i">
                 <div class="card">
                   <div class="card-header">
@@ -97,7 +97,7 @@
           </div><!-- end blog row -->
 
         </div><!-- end main section -->
-        <aside class="col-md-4">
+        <aside class="col-lg-4">
 
           <div class="logo">
             <img src="images/logo.png" class="img-fluid" />

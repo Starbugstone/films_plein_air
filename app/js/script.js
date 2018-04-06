@@ -1,7 +1,7 @@
 new Vue({
   el: '#films',
   data: {
-    slides: 7
+    slides: 11
   },
   components: {
     'carousel-3d': Carousel3d.Carousel3d,
@@ -16,7 +16,7 @@ $( document ).ready(function() {
 
 $('.filmImage').each(function(){
   $(this).mouseenter(function(){
-    console.log("hovered");
+    //console.log("hovered");
     $(this).children(".filmImageText").stop(true, true).fadeIn();
   }).mouseleave(function(){
     $(this).children(".filmImageText").stop(true, true).fadeOut();
