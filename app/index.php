@@ -77,17 +77,19 @@
 
           <div class="row justify-content-around blogRow">
             <?php
-            for ($i=0; $i < 3; $i++) {
+            for ($i=0; $i < 6; $i++) {
               ?>
               <section class="col-md-4">
-                <div class="card">
+                <div class="card mb-2">
                   <div class="card-header">
-                    Featured
+                    Actualités
                   </div>
+                  <img class="card-img-top" src="http://via.placeholder.com/300x175" alt="Actualités image">
                   <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                    <h5 class="card-title">Lorem ipsum</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis ornare condimentum. Nunc quis nulla suscipit, dignissim enim id, pretium mauris. Pellentesque eleifend dolor vel lacus lobortis, id vehicula arcu dictum. Aliquam sed felis sit amet est fringilla semper. Praesent ac tincidunt tellus. In tempor, eros nec bibendum gravida, mi purus viverra justo, malesuada aliquam. [...]</p>
+                    <a href="#">Lire la suite</a>
                   </div>
                 </div>
               </section><!-- end blog section -->
@@ -105,23 +107,42 @@
 
           <div class="card">
             <div class="card-header">
-              Featured
+              S'inscrire au newsletter
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <form>
+                <div class="form-group">
+                  <label for="newsletterName">Votre nom</label>
+                  <input type="text" class="form-control" id="newsletterName" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                  <label for="newsletterEmail">Votre adresse mail</label>
+                  <input type="email" class="form-control" id="newsletterEmail" placeholder="@mail">
+                </div>
+
+                <button type="submit" class="btn btn-primary">S'inscrire</button>
+              </form>
             </div>
           </div>
 
           <div class="card">
             <div class="card-header">
-              Featured
+              A propos du festival
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Les films de plein air</h5>
+              <p class="card-text">L'association "les films de plein air" est heureux de vous offrir la possibilité de visionner gratuitement des films d'auter du 5au 8 aout au parc Monseau</p>
+              <p class="card-text">Pour etre sûr d'avoir une place, nous vous proposons de vous inscrire à chaque seance. Vous avez les acces au reservation dans la fiche descriptive du film</p>
+              <a href="#" class="btn btn-primary">Lire plus</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              Plan d'acces
+            </div>
+            <div class="card-body">
+              <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10495.613391325449!2d2.3038051586914072!3d48.879119037806525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe62425fddeddc402!2sParc+Monceau!5e0!3m2!1sen!2sfr!4v1523200023940" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -129,20 +150,13 @@
       </div>
     </main>
     <footer>
-      <div class="row justify-content-around footerRow">
+      <div class="row justify-content-around footerRow bg-darthV">
         <?php
         for ($i=0; $i < 3; $i++) {
           ?>
           <div class="col-md-4">
-            <div class="card">
-              <div class="card-header">
-                Featured
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+            <div class="px-4 pt-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis ornare condimentum. Nunc quis nulla suscipit, dignissim enim id, pretium mauris. Pellentesque eleifend dolor vel lacus lobortis, id vehicula arcu dictum. Aliquam sed felis sit amet est fringilla semper.</p>
             </div>
           </div>
           <?php

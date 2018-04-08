@@ -1,5 +1,5 @@
 /*============================================*
-* Global CSS
+* Global
 *==============================================*/
 body {
   min-width: 360px; }
@@ -10,7 +10,7 @@ body {
 
 .card > .card-header {
   background-color: #320066;
-  color: white; }
+  color: #fff; }
 
 .bg-darthV {
   background-color: #0f001e; }
@@ -58,3 +58,9 @@ aside.sidebar {
 
 #films .carousel-3d-container, #films .carousel-3d-slider, #films .carousel-3d-slide {
   min-height: 602px !important; }
+
+/*============================================*
+* The footer
+*==============================================*/
+.footerRow {
+  color: #fff; }
