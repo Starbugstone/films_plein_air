@@ -62,6 +62,9 @@ aside.sidebar {
 #films .carousel-3d-container, #films .carousel-3d-slider, #films .carousel-3d-slide {
   min-height: 602px !important; }
 
+#films a, #films a:active, #films a:hover, #films a:visited {
+  color: #b9b9b9; }
+
 /*============================================*
 * The footer
 *==============================================*/

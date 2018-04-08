@@ -5,6 +5,9 @@ $darker: #230047;
 $darkerr: #0f001e;
 $writingColorLight: #b9b9b9;
 
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+
 /*============================================*
 * Global
 *==============================================*/
@@ -85,6 +88,9 @@ aside.sidebar{
 
   .carousel-3d-container, .carousel-3d-slider, .carousel-3d-slide{
     min-height: 602px !important; //Fix for mobile
+  }
+  #{$a-tags}{
+    color: $writingColorLight;
   }
 }
 
