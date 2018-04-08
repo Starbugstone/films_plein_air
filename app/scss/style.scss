@@ -3,7 +3,7 @@ $brighter: #410083;
 $brighterr: #5100a3;
 $darker: #230047;
 $darkerr: #0f001e;
-$writingColorLight: #fff;
+$writingColorLight: #b9b9b9;
 
 /*============================================*
 * Global
@@ -29,6 +29,10 @@ body{
 /*============================================*
 * NavBar
 *==============================================*/
+
+#siteTitle{
+  color: $writingColorLight;
+}
 .headerTitle h1{
   font-family: Forte;
   text-align: center;
