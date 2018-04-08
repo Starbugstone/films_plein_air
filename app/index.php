@@ -11,7 +11,7 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
 
 
           <div id="films" >
@@ -96,7 +96,7 @@
           </div><!-- end blog row -->
 
         </div><!-- end main section -->
-        <aside class="col-lg-4 sidebar">
+        <aside class="col-lg-3 sidebar">
 
           <?php include('part-sidebar.php'); ?>
 
