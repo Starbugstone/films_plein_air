@@ -29,7 +29,7 @@ $films = array(
   ),
   "wrathOfKhan" => array(
     "title" => "Star trek 2- The wrath of khan",
-    "image" => "khan.jpg",
+    "image" => "Khan.jpg",
     "showDate" => "05 Aout",
     "showTime" => "20h30",
     "filmDuration" => "01:53:00",

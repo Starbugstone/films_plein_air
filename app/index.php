@@ -34,7 +34,7 @@
                             ?>
                           </div>
                         </div>
-                        <div class="filmTags row justify-content-around">
+                        <div class="filmTags row justify-content-around text-center">
                           <div class="col-3">
                             <p>
                               diffusion<br>
@@ -59,7 +59,6 @@
                               <?php echo($film["filmAge"]); ?>
                             </p>
                           </div>
-                          <p>date - hour - length - age</p>
                         </div>
                       </div>
                     </div>
@@ -78,7 +77,7 @@
             for ($i=0; $i < 6; $i++) {
               ?>
               <section class="col-md-4">
-                <div class="card mb-2">
+                <div class="card mb-3">
                   <div class="card-header">
                     Actualités
                   </div>
