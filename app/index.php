@@ -37,7 +37,7 @@
                         <div class="filmTags row justify-content-around text-center">
                           <div class="col-3">
                             <p>
-                              date<br>
+                              Date<br>
                               <?php echo($film["showDate"]); ?>
                             </p>
                           </div>
