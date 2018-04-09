@@ -24,7 +24,7 @@
     "gulp-clean-css": "^3.9.3",
     "gulp-cleanhtml": "^1.0.3",
     "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.0",
+    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "run-sequence": "^2.2.1"
   },
