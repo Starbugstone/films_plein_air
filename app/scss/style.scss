@@ -65,6 +65,14 @@ aside.sidebar{
 * The carousel-3d
 *==============================================*/
 #films{
+  background:url(../images/bgdfilms.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#films{
   .filmImageCard{
     padding: 0;
   }
