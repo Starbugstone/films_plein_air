@@ -29,6 +29,10 @@ body {
 .headerTitle h1 a {
   font-size: xx-large; }
 
+.navbar-nav {
+  justify-content: flex-end;
+  width: 100%; }
+
 /*============================================*
 * The Sidebar
 *==============================================*/
@@ -72,6 +76,11 @@ aside.sidebar {
 
 #films a, #films a:active, #films a:hover, #films a:visited {
   color: #b9b9b9; }
+
+#films .card-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em; }
 
 /*============================================*
 * The footer

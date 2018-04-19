@@ -46,6 +46,11 @@ body{
   font-size: xx-large;
 }
 
+.navbar-nav{
+  justify-content: flex-end;
+  width: 100%;
+}
+
 /*============================================*
 * The Sidebar
 *==============================================*/
@@ -99,6 +104,12 @@ aside.sidebar{
   }
   #{$a-tags}{
     color: $writingColorLight;
+  }
+
+  .card-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
   }
 }
 
