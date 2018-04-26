@@ -1,6 +1,6 @@
 <header>
   <div class="headerTitle navbar navbar-dark bg-darthV">
-    <h1><a id="siteTitle" class="navbar-brand" href="#">Les films de plein air</a></h1>
+    <h1><a id="siteTitle" class="navbar-brand" href="index.php">Les films de plein air</a></h1>
   </div>
   <nav class="navbar navbar-expand-md navbar-dark bg-darthV text-right">
 
