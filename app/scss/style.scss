@@ -29,6 +29,10 @@ body{
   background-color: $darkerr;
 }
 
+.customWriting{
+  font-family: Forte;
+}
+
 /*============================================*
 * NavBar
 *==============================================*/
@@ -118,4 +122,21 @@ aside.sidebar{
 *==============================================*/
 .footerRow{
   color: $writingColorLight;
+}
+
+/*============================================*
+* Listing Films
+*==============================================*/
+.filmsListing{
+  border: 1px solid $darkerr;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+
+.TitleListing{
+  #{$a-tags}{
+    color: $darker;
+    text-decoration: none;
+    font-family: Forte;
+  }
 }

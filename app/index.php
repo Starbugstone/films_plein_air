@@ -43,7 +43,7 @@
                           </div>
                           <div class="col-3">
                             <p>
-                              Heure
+                              Heure<br>
                               <?php echo($film["showTime"]); ?>
                             </p>
                           </div>
@@ -59,7 +59,7 @@
                               <?php echo($film["filmAge"]); ?>
                             </p>
                           </div>
-                        </div>
+                        </div><!-- End filmImageCard -->
                       </div>
                     </div>
 
@@ -96,6 +96,7 @@
           </div><!-- end blog row -->
 
         </div><!-- end main section -->
+
         <aside class="col-lg-3 sidebar">
 
           <?php include('part-sidebar.php'); ?>

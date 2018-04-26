@@ -10,14 +10,14 @@
 
     <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Films</a>
+          <a class="nav-link" href="films.php">Films</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Actualités</a>
+          <a class="nav-link" href="actualites.php">Actualités</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">A propos</a>

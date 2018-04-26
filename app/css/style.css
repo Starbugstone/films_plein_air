@@ -15,6 +15,9 @@ body {
 .bg-darthV {
   background-color: #0f001e; }
 
+.customWriting {
+  font-family: Forte; }
+
 /*============================================*
 * NavBar
 *==============================================*/
@@ -87,3 +90,16 @@ aside.sidebar {
 *==============================================*/
 .footerRow {
   color: #b9b9b9; }
+
+/*============================================*
+* Listing Films
+*==============================================*/
+.filmsListing {
+  border: 1px solid #0f001e;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px; }
+
+.TitleListing a, .TitleListing a:active, .TitleListing a:hover, .TitleListing a:visited {
+  color: #230047;
+  text-decoration: none;
+  font-family: Forte; }
