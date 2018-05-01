@@ -30,7 +30,7 @@
     <h5 class="card-title">Les films de plein air</h5>
     <p class="card-text">L'association "les films de plein air" est heureux de vous offrir la possibilité de visionner gratuitement des films d'auter du 5au 8 aout au parc Monseau</p>
     <p class="card-text">Pour etre sûr d'avoir une place, nous vous proposons de vous inscrire à chaque seance. Vous avez les acces au reservation dans la fiche descriptive du film</p>
-    <a href="#">Lire plus</a>
+    <a href="propos.php">Lire plus</a>
   </div>
 </div>
 

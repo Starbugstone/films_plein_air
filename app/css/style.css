@@ -18,6 +18,9 @@ body {
 .customWriting {
   font-family: Forte; }
 
+.textHeadingColor {
+  color: #0f001e; }
+
 /*============================================*
 * NavBar
 *==============================================*/
@@ -91,6 +94,13 @@ aside.sidebar {
 .footerRow {
   color: #b9b9b9; }
 
+.planDuSite a {
+  padding: 0;
+  padding-top: 2px; }
+
+.planDuSite a, .planDuSite a:active, .planDuSite a:hover, .planDuSite a:visited {
+  color: #b9b9b9; }
+
 /*============================================*
 * Listing Films
 *==============================================*/
@@ -103,3 +113,9 @@ aside.sidebar {
   color: #230047;
   text-decoration: none;
   font-family: Forte; }
+
+/*============================================*
+* Fil Descriptif
+*==============================================*/
+.filmImg {
+  max-width: 33%; }

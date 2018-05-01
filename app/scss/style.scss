@@ -33,6 +33,10 @@ body{
   font-family: Forte;
 }
 
+.textHeadingColor{
+  color: $darkerr;
+}
+
 /*============================================*
 * NavBar
 *==============================================*/
@@ -124,6 +128,16 @@ aside.sidebar{
   color: $writingColorLight;
 }
 
+.planDuSite {
+    a{
+    padding: 0;
+    padding-top: 2px;
+  }
+  #{$a-tags}{
+    color: $writingColorLight;
+  }
+}
+
 /*============================================*
 * Listing Films
 *==============================================*/
@@ -139,4 +153,11 @@ aside.sidebar{
     text-decoration: none;
     font-family: Forte;
   }
+}
+
+/*============================================*
+* Fil Descriptif
+*==============================================*/
+.filmImg{
+  max-width: 33%;
 }

@@ -20,7 +20,7 @@
           <a class="nav-link" href="actualites.php">Actualités</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">A propos</a>
+          <a class="nav-link" href="propos.php">A propos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Connexion</a>
