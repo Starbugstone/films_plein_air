@@ -66,6 +66,10 @@ $film = $films[$filmKey];
                         <label for="email">Votre adresse mail</label>
                         <input type="email" class="form-control" id="email" placeholder="@mail">
                       </div>
+                      <div class="form-group">
+                        <label for="number">Nombre de personnes</label>
+                        <input type="text" class="form-control" id="number" placeholder="Nombre de participants">
+                      </div>
 
                       <button type="submit" class="btn btn-primary">Reserver</button>
                     </form>
@@ -96,11 +100,9 @@ $film = $films[$filmKey];
               </div>
             </div>
           </div>
-
-
-
-
-
+          <div class="socialIcons float-right mr-4 mt-2">
+            <img src="images/fb.png" class="mr-1"><img src="images/g+.png" class="mr-1"><img src="images/tw.png" class="mr-1">
+          </div>
 
 
         </div><!-- end main section -->
