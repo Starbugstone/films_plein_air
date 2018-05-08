@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/Starbugstone/films_plein_air#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.24.4",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-cache": "^1.0.2",
-    "gulp-clean-css": "^3.9.3",
+    "gulp-clean-css": "^3.9.4",
     "gulp-cleanhtml": "^1.0.3",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
